@@ -223,4 +223,4 @@ Please change the parent <Route path="${H}"> to <Route path="${H==="/"?"*":`${H}
   &:hover {
     background-color: #0056b3;
   }
-`;function jT(){return we.jsxs(CT,{children:[we.jsx(zT,{children:"404 — Страница не найдена"}),we.jsx(NT,{children:"Кажется, вы попали не туда."}),we.jsx(UT,{to:"/",children:"Вернуться на главную"})]})}const LT=fS([{path:"/",element:we.jsx(DE,{}),children:[{index:!0,element:we.jsx(qE,{})},{path:"add",element:we.jsx(MT,{})},{path:"*",element:we.jsx(jT,{})}]}]);y1.createRoot(document.getElementById("root")).render(we.jsx(B.StrictMode,{children:we.jsx(TS,{router:LT})}));
+`;function jT(){return we.jsxs(CT,{children:[we.jsx(zT,{children:"404 — Страница не найдена"}),we.jsx(NT,{children:"Кажется, вы попали не туда."}),we.jsx(UT,{to:"/",children:"Вернуться на главную"})]})}const LT=fS([{path:"/",element:we.jsx(DE,{}),children:[{index:!0,element:we.jsx(qE,{})},{path:"add",element:we.jsx(MT,{})},{path:"*",element:we.jsx(jT,{})}]},{basename:"/skillTrack"}]);y1.createRoot(document.getElementById("root")).render(we.jsx(B.StrictMode,{children:we.jsx(TS,{router:LT})}));
