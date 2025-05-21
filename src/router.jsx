@@ -23,5 +23,8 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    basename: "/skillTrack",
+  },
 ]);
 export default router;
